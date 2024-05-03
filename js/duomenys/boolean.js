@@ -123,7 +123,7 @@ console.log(false || true && false || true);
 console.log(false && false && true || true);
 
 /* prioritetas &&: pirma paskaiciuoja &&, 
-paskui is eiles ||
+paskui is eiles ||, is desines i kaire
 */
 
 console.log(false && false && true || false);
