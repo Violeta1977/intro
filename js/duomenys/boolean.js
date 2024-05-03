@@ -15,8 +15,11 @@ Operatoriai (zenklai)
 Boolean loginiai operatoriai:
 - && (and) ampersandai
 - || (or) pipe, pipline
+- ! (not) kai sprendziant uzdavini, nori apversti salyga
+!! grazinti pirmine reiksme
+tarp sauktuko ir reiksmes neturi buti tarpo
 
-Butinai turi buti du 
+Butinai turi buti du zenklai
 
 Kai yra and && vienintelis true resultantas bus tik su visom true
 Jet aplink && and bus falce, tai visa salyga bus falce
@@ -132,9 +135,30 @@ console.log(false || true && false && true);
 
 console.log(false && false && true && false || true);
 
+console.clear();
 
+console.log(!true);
 
+// ne tiesa 
 
+console.log(!false);
+
+// ne netiesa :))
+
+console.log(!!true);
+console.log(!!false);
+
+/*
+kiekvienas sekantis sauktukas panaikina (apsuka) pries 
+tai esancia boolean reiksme
+
+*/
+
+console.log(isRich);
+console.log(!isRich);
+console.log(!!isRich);
+
+// daugiau kaip du sauktukai nerasomi
 
 
 
