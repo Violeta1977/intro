@@ -59,6 +59,14 @@ console.log(false && true || true || false);
 console.log(false || true || true && false);
 console.log(false || true && true && false);
 
+console.log(true || false && true || true);
+console.log(true || false && false || true);
+console.log(true || false && false || false);
+console.log(true || true && false || false);
+console.log(true || true && true || false);
+console.log(false || false && true || false);
+
+
 
 
 
