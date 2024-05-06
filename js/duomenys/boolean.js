@@ -4,7 +4,7 @@ Boolean - logine reiksme
 -true: pozityvi reiksme, taip 
 -falce: negatyvi reiksme, ne
 
-Kintamasis turi muti klausymo forma
+Kintamasis turi buti klausymo forma
 const isSunShining
 Has
 Does ir t.t
@@ -21,7 +21,7 @@ tarp sauktuko ir reiksmes neturi buti tarpo
 
 Butinai turi buti du zenklai
 
-Kai yra and && vienintelis true resultantas bus tik su visom true
+Kai yra and && vienintelis true resultatas bus tik su visom true
 Jet aplink && and bus falce, tai visa salyga bus falce
 
 */
@@ -135,6 +135,8 @@ console.log(false || true && false && true);
 
 console.log(false && false && true && false || true);
 
+console.log(false|| true && true || true && true || true);
+
 console.clear();
 
 console.log(!true);
@@ -159,6 +161,16 @@ console.log(!isRich);
 console.log(!!isRich);
 
 // daugiau kaip du sauktukai nerasomi
+
+console.log(false || false && true || true);
+console.log(false || true && false || true);
+console.log(false && false && true || true);
+console.log(true && false && true || true);
+console.log(true && false && false || true);
+console.log(false && false && false || true);
+console.log(false && false || false || true);
+
+
 
 
 

@@ -30,9 +30,9 @@ console.log(pirmas, trecias);
 /*
 pagrindines programavimo temos:
 -duomenu tipai
+-funkcijos
 -palyginimo salygos
 -ciklai
--funkcijos
 -class (oop)
 -event listeners
 
