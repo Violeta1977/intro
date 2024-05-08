@@ -10,7 +10,8 @@ NUMBERS
     -NaN (not-a-number)
 
     Matematiniai operatoriai:
--aritmetiniai: +, -, /, *, **(laipsnio rodiklis), %(liekana)
+-aritmetiniai: +, -, /, *, **, %, ++, --
+**(laipsnio rodiklis), %(liekana)
 - priskyrimo: +=, -=, /=, *=, **=, %=
 
 */
@@ -143,18 +144,48 @@ console.log(y);
 y -= 10 - 5 * 4;
 console.log(y);
 
+console.clear();
 
+let makaronai = 2;
+console.log(makaronai);
 
+makaronai = makaronai + 2;
+console.log(makaronai);
 
+makaronai += 2;
+console.log(makaronai);
 
+makaronai += 1;
+console.log(makaronai);
 
+/* matematine operacija - kai prie saves prideti +
+arba atimti
+*/
 
+//makaronai += 1;
+makaronai++ ;
+console.log(makaronai);
 
+makaronai++ ;
+makaronai++ ;
+makaronai++ ;
+makaronai++ ;
+makaronai++ ;
+makaronai++ ;
+console.log(makaronai);
 
- 
+console.clear();
 
+// makaronai-- ;
+//console.log(makaronai);
+// rodys, kad atminusavo 1
 
+let g = 6;
 
-
-
-
+console.log(g);
+// pirmiau spausdina, po to padidina
+console.log(g++);
+console.log(g);
+// pirmaiau padidina, po to spausdina
+console.log(++g);
+console.log(g);
