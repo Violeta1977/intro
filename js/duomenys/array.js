@@ -20,7 +20,7 @@ const mark5 = 6;
 // count - kiekis, average - vidurkis
 const sum = mark1 + mark2 + mark3 + mark4 + mark5;
 const count = 5;
-const average1 = sum / count; 
+const average1 = sum / count;
 
 console.log(average1);
 
@@ -97,4 +97,38 @@ sum3 += marks[index++];
 
 console.log(sum3);
 
+function marksAverage(marks) {
+  if (marks.length === 0) {
+    return 'Vidurkis: nera pazymiu.';
+  }
 
+  let sum = 0;
+
+  // ????
+
+  return 'Vidurkis: ' + sum / marks.length;
+}
+
+const jonoPazymiai = [];
+console.log(jonoPazymiai);
+console.log(marksAverage(jonoPazymiai));
+
+jonoPazymiai.push(10);
+console.log(jonoPazymiai);
+console.log(marksAverage(jonoPazymiai));
+
+jonoPazymiai.push(2);
+console.log(jonoPazymiai);
+console.log(marksAverage(jonoPazymiai));
+
+jonoPazymiai.push(8);
+console.log(jonoPazymiai);
+console.log(marksAverage(jonoPazymiai));
+
+jonoPazymiai.push(4);
+console.log(jonoPazymiai);
+console.log(marksAverage(jonoPazymiai));
+
+jonoPazymiai.push(6);
+console.log(jonoPazymiai);
+console.log(marksAverage(jonoPazymiai));

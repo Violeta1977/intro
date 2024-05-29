@@ -10,9 +10,10 @@ NENAUDOTINI: ==, !=
 > - daugiau;
 <= - daugiau arba lygu
 >= - maziau arba lygu
-== - lygu
+== - lygu/ tikrina reiksmes
 != - nelygu
-=== - lygu
+=== - lygu/ tikrina duomenu tipa, jeigu sutampa tada
+    tikrina reismes
 !== - nelygu
 
 Sablonai:

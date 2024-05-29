@@ -20,12 +20,11 @@ const trecias = 7859675;
 
 console.log(1234567);
 console.log(33333333);
-console.log(pirmas,antras);
+console.log(pirmas, antras);
 console.log(pirmas, trecias);
 
-""
-''
-
+('');
+('');
 
 /*
 pagrindines programavimo temos:
@@ -37,7 +36,6 @@ pagrindines programavimo temos:
 -event listeners
 
 */
-
 
 /*
 Duomenu tipai
@@ -75,4 +73,3 @@ Busimos temos:
 - ivykiai (event listeners)
 
 */
- 
