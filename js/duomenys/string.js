@@ -121,6 +121,11 @@ console.clear();
 // \r - return
 // \n - new line
 // \t - tab
+
+// /g - naudojamas metode .replace(/ś/g, 's').
+// keicia visas nurodytas reiksmes, o ne sustoja kai pamato pirma
+// be g pakeis tik pirma reiksme
+// panaudotas codewars polish alphabet
 const HTML =
   '\
 <header>\r\n\

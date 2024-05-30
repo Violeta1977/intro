@@ -237,9 +237,3 @@ function varduPalyginimas1(a, b) {
 
 money.sort(varduPalyginimas1);
 console.log(money);
-
-// console.log('Maziausias vidurkis:', students[0].marks);
-// console.log('Maziausio autorius:', students[0].name);
-
-// console.log('Didziausias vidurkis:', students.at(-1).marks); // .at(-1) grazins paskutinio obj, param
-// console.log('Didziausio autorius:', students.at(-1).name);

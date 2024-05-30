@@ -87,6 +87,7 @@ console.log('Labas'.repeat(0));
 console.log('Labas'.repeat(3.14));
 console.log('Labas'.repeat(3.99999));
 
+// /g - naudojamas metode .replace(/ś/g, 's').
 console.log('-------------------');
 console.log('replace()');
 console.log('Pomidoras'.replace('P', 'B'));
